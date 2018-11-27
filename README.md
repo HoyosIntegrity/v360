@@ -7,14 +7,15 @@ Although the remote control is already working, be aware that the code is still 
 
 Requirements
 ------------
-While remote controlling the camera via wifi should work cross-plattform, turning the device off an on will wok on Linux systems only due to the gatttool dependency. For full functionality the following software is required: 
+While remote controlling the camera via wifi should work cross-plattform, turning the device off an on will work on Linux systems only due to the gatttool dependency. For full functionality the following software is required: 
 * python3
 * pexpect
+* gattlib (Linux only)
 
 ### Installing dependencies (Ubuntu)
 Open a terminal and execute the following commands:
 
-	$ sudo apt-get install python3-pip 
+	$ sudo apt-get install python3-pip gattlib
 	$ sudo pip3 install pexpect
 
 Usage
